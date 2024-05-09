@@ -68,3 +68,7 @@ h2 a {
 h2 a {
   text-decoration: none;
 }
+
+.lk-grid-layout {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
