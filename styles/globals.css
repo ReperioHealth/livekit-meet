@@ -72,3 +72,9 @@ h2 a {
 .lk-grid-layout {
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
+
+.lk-disconnect-button,
+.lk-chat-toggle,
+.lk-button[data-lk-source='screen_share'] {
+  display: none !important;
+}
